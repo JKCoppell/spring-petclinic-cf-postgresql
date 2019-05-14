@@ -6,8 +6,7 @@ pipeline {
          REGION = "us-south"
          API_ENDPOINT= "https://cloud.ibm.com"
          DOMAIN = "mybluemix.net"
-         host = "spring-petclinic-016"
-    }
+     }
 
     tools {
         maven 'Apache Maven 3.5.2'
