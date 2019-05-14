@@ -7,6 +7,7 @@ applications:
   buildpacks:
     - liberty-for-java
   path: ./target/spring-petclinic-cf-2.1.0.jar
+  host: spring-petclinic-016
   env:
     SPRING_PROFILES_ACTIVE: postgresql
     JAVA_OPTS: '-Dspring.datasource.initialization-mode=always'
