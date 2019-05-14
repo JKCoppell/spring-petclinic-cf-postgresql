@@ -1,6 +1,6 @@
 ---
 applications:
-- name: spring-petclinic
+- name: spring-petclinic-016
   memory: 768M
   timeout: 180
   buildpacks:
