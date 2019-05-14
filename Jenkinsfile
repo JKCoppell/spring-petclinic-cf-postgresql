@@ -6,6 +6,7 @@ pipeline {
          REGION = "us-south"
          API_ENDPOINT= "https://cloud.ibm.com"
          DOMAIN = "mybluemix.net"
+         host = "spring-petclinic-016"
     }
 
     tools {
